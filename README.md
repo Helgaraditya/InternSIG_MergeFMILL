@@ -1,7 +1,6 @@
 # 🚀 FMILL Data Merger - PT Semen Indonesia
 
-Skrip Python untuk otomatisasi penggabungan data produksi Finish Mill (FMILL#1–FMILL#9) bulanan dari file Excel yang tersebar dalam folder per bulan. Mendukung pengolahan struktur kolom yang berbeda antara FMILL#1–4 dan FMILL#5–9, serta menyimpan hasil gabungan ke dalam satu file Excel. Data terbaru akan ditambahkan tanpa mengulang penggabungan dari awal.
-
+Skrip Python ini dibuat untuk menggabungkan otomatis data laporan harian Finish Mill (FMILL#1 hingga FMILL#9) dari berbagai file Excel bulanan. File yang digabungkan berada di dalam subfolder berdasarkan nama bulan (JAN, FEB, MAR, dst), dan setiap file memiliki 9 sheet (FMILL#1 sampai FMILL#9) dengan struktur kolom yang berbeda.
 ---
 
 ## 📁 Struktur Folder
