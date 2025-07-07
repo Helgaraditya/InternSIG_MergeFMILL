@@ -31,4 +31,50 @@ Skrip Python ini digunakan untuk **menggabungkan otomatis data laporan harian Fi
 
 ---
 
+## 📐 Struktur Kolom
+
+### FMILL#1 – FMILL#4 (11 Kolom)
+
+| No | Nama Kolom           |
+|----|-----------------------|
+| 1  | Date                  |
+| 2  | Production (TPD)      |
+| 3  | Production (TPH)      |
+| 4  | KWH/TON               |
+| 5  | Running Time          |
+| 6  | Running Time (HRC)    |
+| 7  | % Run HRC             |
+| 8  | Number of Stops       |
+| 9  | TYPE SEMEN            |
+| 10 | Cause of stop         |
+| 11 | In Silo               |
+
+**Catatan**: Untuk menyesuaikan dengan format sheet FMILL#5–9, maka kolom `KWH MILL`, `KWH SEPARATOR`, `KWH Fan`, dan `KWH MAIN` ditambahkan otomatis dengan nilai `0`.
+
+---
+
+### FMILL#5 – FMILL#9 (15 Kolom)
+
+| No | Nama Kolom           |
+|----|-----------------------|
+| 1  | Date                  |
+| 2  | Production (TPD)      |
+| 3  | Production (TPH)      |
+| 4  | Running Time          |
+| 5  | Running Time (HRC)    |
+| 6  | % Run HRC             |
+| 7  | Number of Stops       |
+| 8  | KWH MILL              |
+| 9  | KWH SEPARATOR         |
+| 10 | KWH Fan               |
+| 11 | KWH MAIN              |
+| 12 | KWH/TON               |
+| 13 | TYPE SEMEN            |
+| 14 | Cause of stop         |
+| 15 | In Silo               |
+
+---
+
+
+
 
